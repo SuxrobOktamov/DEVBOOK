@@ -1,0 +1,189 @@
+#section {
+    position: absolute;
+    z-index: 1000;
+    background-color: #191919;
+    top: 82px;
+    left: 0;
+    padding-left: 50px;
+}
+
+.author-details {
+    position: relative;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 5fr 6fr;
+    justify-content: space-between;
+    grid-column-gap: 87px;
+    padding-bottom: 50px;
+}
+
+.author-logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+}
+
+.author-logo>img {
+    margin-bottom: 40px;
+}
+
+.author-may small {
+    font-family: 'Visuelt Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 144.4%;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.author-may h2 {
+    font-family: 'Rotterburg Stylish FREE';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 144.4%;
+    color: #C9AC8C;
+}
+
+.author-born {
+    display: flex;
+    align-items: center;
+    margin-bottom: 46px;
+    grid-column-gap: 32px;
+}
+
+.author-title {
+    position: relative;
+}
+
+.author-title h2 {
+    text-align: start !important;
+    font-family: 'Rotterburg Stylish FREE';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    text-align: center;
+    color: #C9AC8C;
+    margin-bottom: 10px;
+}
+
+.author-title p {
+    font-family: 'Steinbeck';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 144.4%;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 31px;
+    max-width: 525px;
+}
+
+.ijod>p {
+    max-width: 362.67px;
+    font-family: 'Steinbeck';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 154.9%;
+    color: #FFFFFF;
+    margin-left: 25px;
+    margin-bottom: 53px;
+}
+
+.ijod-logo {
+    display: flex;
+    align-items: center;
+    grid-column-gap: 10px;
+}
+
+.ijod img {
+    width: 14px;
+    height: 20px;
+}
+
+.ijod h3 {
+    font-family: 'Rotterburg Stylish FREE';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #C9AC8C;
+}
+
+.Book-title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+    grid-column-gap: 268px;
+}
+
+.Book-title h2 {
+    font-family: 'Rotterburg Stylish FREE';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 34px;
+    text-align: center;
+    color: #C9AC8C;
+}
+
+.Book-title p {
+    font-family: 'Steinbeck';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    cursor: pointer;
+}
+
+.Book-logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    grid-column-gap: 40px;
+}
+
+.Book-logo.wrap {
+    flex-wrap: wrap;
+}
+
+.logo-card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.logo-card img {
+    width: 153.63px;
+    height: 246.99px;
+    margin-bottom: 17px;
+    object-fit: cover;
+}
+
+.logo-card h3 {
+    font-family: 'Rotterburg Stylish FREE';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #C9AC8C;
+}
+
+.logo-card span {
+    font-family: 'Visuelt Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 144.4%;
+    color: rgba(255, 255, 255, 0.6);
+}

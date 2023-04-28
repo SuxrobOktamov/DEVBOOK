@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #E5E5E5;
+}
+
+.profile {
+    position: relative;
+    display: flex;
+    align-items: center;
+    grid-column-gap: 4px;
+}
+
+.account {
+    cursor: pointer;
+    background: #FFFFFF;
+    border-radius: 4px 4px 0px 0px;
+    width: 297px;
+    height: 80px;  
+    padding: 23px 0 22px 23px;
+    display: flex;
+    align-items: center;
+    grid-column-gap: 5px;
+}
+
+.account span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #152540;
+    border-radius: 4px;
+    padding: 5px 14px 6px 14px;
+}
+
+.account p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #152540;
+    margin: 0;
+}
+
+.security {
+    cursor: pointer;
+    background: #F3F6F9;
+    border-radius: 4px 4px 0px 0px;
+    width: 297px;
+    height: 80px;  
+    padding: 23px 0 22px 23px;
+    display: flex;
+    align-items: center;
+    grid-column-gap: 5px;
+}
+
+.security span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3699FF;
+    background: #E5EAEE;
+    border-radius: 4px;
+    padding: 5px 14px 6px 14px;
+}
+
+.security p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #464E5F;
+    margin: 0;
+}
+
+.paymet {
+    cursor: not-allowed;
+    background: #F3F6F9;
+    border-radius: 4px 4px 0px 0px;
+    width: 297px;
+    height: 80px;  
+    padding: 23px 0 22px 23px;
+    display: flex;
+    align-items: center;
+    grid-column-gap: 5px;
+}
+
+.paymet span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3699FF;
+    background: #E5EAEE;
+    border-radius: 4px;
+    padding: 5px 14px 6px 14px;
+}
+
+.paymet p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #464E5F;
+    margin: 0;
+}

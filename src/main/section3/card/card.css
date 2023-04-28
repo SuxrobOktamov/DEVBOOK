@@ -1,0 +1,76 @@
+.card {
+    cursor: pointer;
+    width: 173.98px;
+    height: 236.74px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/src/images/Vector.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom right;
+    background-color: transparent !important;
+}
+
+.card-book {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column-gap: 32px;
+}
+
+.card-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column-gap: 5px;
+}
+
+.card-logo img {
+    width: 24px;
+    height: 24px;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-title h3 {
+    font-family: 'Steinbeck';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #C9AC8C;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.card-title small {
+    font-family: 'Steinbeck';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 10px;
+}
+
+.card-title span {
+    font-family: 'Steinbeck';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.card>img {
+    width: 173.98px;
+    height: 132.19px;
+    margin-bottom: 12px;
+}

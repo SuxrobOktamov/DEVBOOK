@@ -1,0 +1,68 @@
+.Rectangle {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 54px;
+}
+
+.Rectangle h2 {
+    font-family: 'Rotterburg Stylish FREE';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 144.4%;
+    color: #C9AC8C;
+}
+
+.list-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 23.5px;
+    padding-left: 25%;
+}
+
+.list-item {
+    position: relative;
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 144.4%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.list-item.active::after {
+    content: '';
+    position: absolute;
+    bottom: -28px;
+    left: 0;
+    width: 100%;
+    border: 2px solid #FFFFFF;
+}
+
+.maskGroup {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column-gap: 10pxs;
+}
+
+.maskGroup img {
+    width: 49.72px;
+    height: 49.72px;
+}
+
+.maskGroup i {
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
