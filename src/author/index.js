@@ -9,6 +9,11 @@ import Img6 from '../images/author.png';
 
 function Author() {    
 
+    const [wrap, setWrap] = useState(false);
+    function wrapHandler() {
+        setWrap(!wrap)
+    }
+
   return (
     <section id='section'>
         <div className="author-details">
@@ -41,9 +46,9 @@ function Author() {
                 </div>
                 <div className="Book-title">
                     <h2>ASARLARI</h2>
-                    <p id="toggle">Barchasini ko'rish</p>
+                    <p id="toggle" onClick={wrapHandler} >Barchasini ko'rish</p>
                 </div>
-                <div className="Book-logo" >
+                <div className={`Book-logo ${wrap ? 'wrap': ''}` } >
                     <div className="logo-card">
                         <img src={Img1} alt="asar" />
                         <h3>Dunyoning ishlari</h3>

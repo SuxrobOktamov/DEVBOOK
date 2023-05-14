@@ -2,7 +2,6 @@ import React from 'react';
 import './section.css';
 import Img1 from '../../images/img-2.png';
 import { Search } from '@mui/icons-material';
-// import { internal_processStyles } from '@mui/styled-engine';
 
 
 function Section1() {
