@@ -1,12 +1,10 @@
 import React from 'react'
 import './section.css';
 import { Link } from 'react-router-dom';
-import { data } from '../../Data/Data';
-
 import Card from './card';
 
 
-function Section3({setId}) {
+function Section3({setId, Datas}) {
 
   const itemHandler = (Id) => {
     setId(Id)
@@ -14,7 +12,7 @@ function Section3({setId}) {
   return (
     <section>
         <div className="cards">
-           {data.map((item)=>(
+           {Datas.map((item)=>(
                 <Link to={`/book/${item.id}`} key={item.id} onClick={()=>{itemHandler(item.id)}}>
                     <Card 
                         img={item.img} 
